@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-brand-navy: #0B2342;
+  --color-brand-navy-surface: #12335B;
+  --color-brand-navy-deep: #07172C;
+  --color-brand-gold: #E3B263;
+  --color-brand-gold-hover: #C99A45;
+  --color-brand-gold-light: #F7E9CE;
+  --color-brand-gold-pale: #FDF8EE;
+  --color-brand-cream: #FAF5EA;
+  --color-brand-card: #FFFDF8;
+  --color-brand-border: #E8DFCB;
+}
+
+:root {
+  --navy-dark: #0B2342;
+  --navy-surface: #12335B;
+  --gold: #E3B263;
+  --gold-hover: #C99A45;
+  --cream: #FAF5EA;
+  --card-surface: #FFFDF8;
+  --border-warm: #E8DFCB;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
