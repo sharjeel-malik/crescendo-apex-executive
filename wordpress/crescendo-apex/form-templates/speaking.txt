@@ -1,0 +1,11 @@
+<p><label>Full Name * [text* full-name autocomplete:name]</label></p>
+<p><label>Email Address * [email* email autocomplete:email]</label></p>
+<p><label>Organization * [text* organization]</label></p>
+<p><label>Event Name * [text* event-name]</label></p>
+<p><label>Event Date [date event-date]</label></p>
+<p><label>Location [text location]</label></p>
+<p><label>Audience Size [text audience-size]</label></p>
+<p><label>Session Format [select format "Keynote" "Workshop" "Panel or Fireside Chat" "Virtual Session"]</label></p>
+<p><label>Event Details * [textarea* message]</label></p>
+<p>[acceptance consent] I agree to be contacted about this event. [/acceptance]</p>
+<p>[submit "Request Speaking Engagement"]</p>

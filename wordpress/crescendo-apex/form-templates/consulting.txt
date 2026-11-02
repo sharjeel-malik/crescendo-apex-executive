@@ -1,0 +1,5 @@
+<p><label>Full Name * [text* full-name autocomplete:name]</label></p>
+<p><label>Email Address * [email* email autocomplete:email]</label></p>
+<p><label>Organization [text organization]</label></p>
+<p><label>How can I help? * [textarea* message]</label></p>
+<p>[submit "Submit Inquiry"]</p>
